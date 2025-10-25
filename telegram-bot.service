@@ -1,0 +1,13 @@
+[Unit]
+Description=Telegram Monitor Bot
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/path/to/telegram-monitor
+ExecStart=/path/to/telegram-monitor/bot_env/bin/python /path/to/telegram-monitor/bot.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
