@@ -14,8 +14,9 @@
 
 ## Быстрый старт
 
-bash
 
 git clone https://github.com/KAPMAH1986/telegram-monitor-bot.git
+
 cd telegram-monitor-bot
+
 python3 setup.py
